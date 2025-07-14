@@ -16,7 +16,7 @@ public class Employee {
     public Employee() {
     }
 
-    // Constructor with empid (used for update and fetch)
+
     public Employee(int empid, String name, String email, String phone, String department,
                     String designation, double salary, Date joiningDate) {
         this.empid = empid;
@@ -29,7 +29,7 @@ public class Employee {
         this.joiningDate = joiningDate;
     }
 
-    // Constructor without empid (used for insert)
+   
     public Employee(String name, String email, String phone, String department,
                     String designation, double salary, Date joiningDate) {
         this.name = name;
